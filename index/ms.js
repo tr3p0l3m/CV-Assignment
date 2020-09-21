@@ -26,7 +26,7 @@ function onSubmit(event) {
        document.getElementById("email").style.backgroundColor ="white";   }
    }
    localStorage.setItem('name',first);
-   window.document.location = 'cv/CV.html';
+   window.document.location = './cv/CV.html';
 }
 
 //function that checks blank feilds
