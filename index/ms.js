@@ -17,15 +17,16 @@ function onSubmit(event) {
       document.getElementById("last").style.backgroundColor ="red";
       window.alert("please enter your last name. ");
    }else if (email == ""){
-     if (first != ""){
+     if (last != ""){
        document.getElementById("last").style.backgroundColor ="white";   }
      document.getElementById("email").style.backgroundColor ="red";
      window.alert("Please enter your email. ");
    }else{
-     if (first != ""){
+     if (email != ""){
        document.getElementById("email").style.backgroundColor ="white";   }
-     window.alert(`hey ${first} ${last} ${email} you submitted a form`);
    }
+   localStorage.setItem('name',first);
+   window.document.location = 'cv/CV.html';
 }
 
 //function that checks blank feilds
