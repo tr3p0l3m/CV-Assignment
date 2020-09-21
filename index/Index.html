@@ -1,0 +1,43 @@
+<head>
+	<link rel="stylesheet" href="./Style.css"/>
+</head>
+<body>
+	<h1 id="app"></h1>
+	<form id="addForm" class="form-box" method="post">
+		<div class="field-group">
+			<label for="first">First</label>
+			<input type="text" id="first" name="f_name"  placeholder="First Name">
+		</div>
+		<div class="field-group">
+			<label for="middle">Middle Name</label>
+			<input type="text" id="middle" name="m_name" placeholder="'Middle' Name">
+		</div>
+		<div class="field-group">
+				<label for="last">Last</label>
+				<input type="text" id="last" name="l_name" placeholder="Last Name">
+		</div>
+				
+		<div class="drop-down">
+			<p>Gender</p>
+			<select>
+				<option>Male</option>
+				<option>Female</option>
+			</select>
+		</div>
+		<div class="field-group">
+			<label for="email">Email</label>
+			<input type="email" id="email" name="email"  placeholder="studentname@ahesi.edu.gh">
+		</div>
+		<div class="field-group">
+			<label for="address">Adress</label>
+			<input type="address" id="address" name="address"  placeholder="address">
+		</div>
+			<button id="formsubmit" type="submit" value="add" >Add</button>
+		<div class="radio-box" id="form-errors"></div>
+
+		<script src = "./ms.js"></script>
+
+						
+	</form>
+</body>
+

@@ -1,7 +1,7 @@
 :root {
     --layout-bg: rgb(192, 155, 116);
     --layout-text: rgb(197, 103, 40);
-    --content-bg: rgb(170, 195, 236);
+    --content-bg: rgb(216, 219, 224);
     --content-text: rgb(197, 103, 40);
     --action-bg: red;
     --action-text: white;
@@ -9,17 +9,22 @@
   }
   html {
     font: 1em sans-serif;
+    background-image: url(https://images.pexels.com/photos/1036808/pexels-photo-1036808.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
   }
   .form-box {
     background-color: var(--content-bg);
     color: var(--content-text);
-    width: 80%;
-    border: 5px solid rgb(192, 155, 116);
-    margin: 0%;
+    width: 25%;
+    border: 10px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    margin-left: 55%;
+    margin-top: 1%;
     padding: 0%;
     display: flex;
     flex-flow: column wrap;
-    justify-content: left;
+    justify-content: right;
+    opacity: 80%;
+
   }
   .form-box .field-group {
     flex: 0 1 75%;
@@ -40,6 +45,9 @@
     flex: 3 1;
     padding: 5px 6px;
     margin: 1%;
+    color: black;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
   }
   .form-box .field-group .short-column {
     display: flex;
@@ -96,29 +104,32 @@
   .form-box .hidden {
     visibility: hidden;
   }
-  .form-box .radio-box {
+  .form-box .drop-down {
     align-self: center;
     flex: 5 1;
     background-color: var(--content-bg);
     color: var(--content-text);
     width: 75%;
-    border: 2px solid rgb(192, 155, 116);
+    border: 2px solid rgb(245, 241, 238);
+    border-radius: 3px;
+    border-radius: 5px solid blue;
     margin: 1%;
     padding: 0%;
   }
-  .form-box .radio-box p {
-    color: var(--content-text);
+  .form-box .drop-down p {
+    color: black;
     font-weight: bold;
     width: 100%;
     margin: 1%;
     padding: 0%;
   }
-  .form-box .radio-box input {
+  .form-box .drop-down input {
     width: 10%;
   }
-  .form-box .radio-box input + label {
+  .form-box .drop-down input + label {
     width: 30%;
     font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
   }
   .form-box .error-msg {
     border: 1px solid var(--error-text);
@@ -128,5 +139,12 @@
   .form-box .info-msg {
     color: var(--layout-text);
     font-size: 0.25em;
+  }
+  h1{
+    margin-top: 5%;
+    text-align: center;
+    margin-left: 22%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
   }
   
