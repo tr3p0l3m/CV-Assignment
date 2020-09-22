@@ -1,0 +1,45 @@
+body{
+    background-image: url(https://images.pexels.com/photos/1260727/pexels-photo-1260727.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    
+}
+
+.sections {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 500px;
+    padding: 30px;
+    margin: 20px auto;
+    background-color: whitesmoke;
+    width: 50%;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    opacity: 75%;
+}
+
+.prof{
+    text-align: center;
+
+}
+
+.sections .education{
+
+}
+
+.sections .awards{
+
+}
+
+.sections .workx{
+
+}
+
+.sections .skills{
+
+}
+
+.sections .co-cur{
+
+}
+
+.sections .references{
+
+}
